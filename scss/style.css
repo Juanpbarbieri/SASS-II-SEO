@@ -1,0 +1,157 @@
+body {
+  background-color: #1b161b;
+}
+
+header H2 {
+  font-size: 3.2rem;
+  background-color: #3b2929;
+  text-align: center;
+}
+
+header .nav {
+  width: 100%;
+  background-color: black;
+  margin: 10px auto;
+}
+
+header .nav .menu {
+  list-style-type: none;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .nav .menu .boton {
+  padding: 10px;
+  margin: 10px;
+}
+
+header .nav .menu .boton:hover {
+  background-color: white;
+  border-radius: 10px;
+}
+
+header .nav .menu .boton a {
+  text-decoration: none;
+  color: white;
+}
+
+header .nav .menu .boton a:hover {
+  font-weight: bold;
+  color: violet;
+}
+
+main {
+  background-color: yellow;
+}
+
+main .general, main .general .articulo3, main .general .articulo2, main .general .articulo1, main .general .articulo5, main .general .articulo6, main .general .articulo7, main .general .articulo8, main .general .articulo9, main .general .articulo10, main .general .articulo11, main .general .articulo12, main .general .articulo13 {
+  background-color: #4e3c4e;
+  text-align: center;
+  color: violet;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+main .general .articulo3 {
+  background-color: #201420;
+}
+
+main .general .articulo2 {
+  background-color: #5c4f5c;
+}
+
+main .general .articulo1 {
+  background-color: #110211;
+}
+
+main .general .articulo5 {
+  background-color: #152915;
+}
+
+main .general .articulo6 {
+  background-color: #263826;
+}
+
+main .general .articulo7 {
+  background-color: #051d05;
+}
+
+main .general .articulo8 {
+  background-color: #13b813;
+}
+
+main .general .articulo9 {
+  background-color: #4d4d91;
+}
+
+main .general .articulo10 {
+  background-color: #3e3e5f;
+}
+
+main .general .articulo11 {
+  background-color: #141422;
+}
+
+main .general .articulo12 {
+  background-color: #101022;
+}
+
+main .general .articulo13 {
+  background-color: #050513;
+}
+
+footer {
+  background-color: black;
+}
+
+footer .nav {
+  width: 100%;
+  background-color: #500f50;
+  margin: auto;
+}
+
+footer .nav .menu {
+  list-style-type: none;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .nav .menu .boton {
+  padding: 30px;
+  margin: 30px;
+}
+
+footer .nav .menu .boton:hover {
+  background-color: white;
+  border-radius: 20px;
+}
+
+footer .nav .menu .boton a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+footer .nav .menu .boton a:hover {
+  color: violet;
+}
+/*# sourceMappingURL=style.css.map */
